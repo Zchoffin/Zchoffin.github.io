@@ -1,79 +1,30 @@
-# Site
+# Site Configuration
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
 
-# Personal info
+# Personal Info
 name: Zachary Choffin
-title: Graduate Research Assistant and Ph.D. Canidate
+title: Graduate Research Assistant and Ph.D. Candidate
 email: zmchoffin@crimson.ua.edu
 website: https://www.linkedin.com/in/zchoffin/
 
-# Dark Mode (true/false/never)
+# Settings
 darkmode: false
-
-# Social links
-#twitter_username: facespics
-github_username:  Zchoffin
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
+github_username: Zchoffin
 linkedin_username: zchoffin
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
 orcid_username: 0000-0002-0395-6230
 
-# Additional icon links
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jfif
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   Hi, my name is Zachary Choffin and I'm a Ph.D Candidate at the Advanced Antenna and Sensor Laboratory at The University of Alabama
-
   I am most skilled in: <mark>Python</mark> and <mark>Deep Learning</mark>
 
+# Education Section
 content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: The University of Alabama, Tuscaloosa
@@ -81,30 +32,17 @@ content:
         sub_title: BSEE
         quote: >
           Established in 1820 and opened to students in 1831, the University of Alabama is the oldest and largest of the public universities in Alabama as well as the University of Alabama System. It is classified among "R1: Doctoral Universities".
-        description: | # this will include new lines to allow paragraphs
+        description: |
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
- - title: Publications
-  layout: text
-  content: |
-    My research has been published in various journals. Here are some of my key publications:
-    - Lee, Martin Wooseop, et al. "A Compact Ultra-Wideband Monocone Antenna with Folded Shorting Wires for Vehicle-to-Everything (V2X) Applications." Sensors 23.13 (2023): 6086.
-    - Choffin, Zachary, et al. "Lower Body Joint Angle Prediction Using Machine Learning and Applied Biomechanical Inverse Dynamics." Sensors 23.1 (2022): 228.
-    - Anderson, Wolfe, et al. "Empirical study on human movement classification using insole footwear sensor system and machine learning." Sensors 22.7 (2022): 2743.
-    - Garvin, J., Abushakra, F., Choffin, Z., Shiver, B., Gan, Y., Kong, L., & Jeong, N. (2023). Microwave imaging for watermelon maturity determination. Current Research in Food Science, 6, 100412.
-    - Choffin, Z., Jeong, N., Callihan, M., Olmstead, S., Sazonov, E., Thakral, S., ... & Lombardi, V. (2021). Ankle Angle Prediction Using a Footwear Pressure Sensor and a Machine Learning Technique. Sensors, 21(11), 3790.
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+# Publications Section
+  - title: Publications
+    layout: text
+    content: |
+      My research has been published in various journals. Here are some of my key publications:
+      - Lee, Martin Wooseop, et al. "A Compact Ultra-Wideband Monocone Antenna with Folded Shorting Wires for Vehicle-to-Everything (V2X) Applications." Sensors 23.13 (2023): 6086.
+      - Choffin, Zachary, et al. "Lower Body Joint Angle Prediction Using Machine Learning and Applied Biomechanical Inverse Dynamics." Sensors 23.1 (2022): 228.
+      - Anderson, Wolfe, et al. "Empirical study on human movement classification using insole footwear sensor system and machine learning." Sensors 22.7 (2022): 2743.
+      - Garvin, J., Abushakra, F., Choffin, Z., Shiver, B., Gan, Y., Kong, L., & Jeong, N. (2023). Microwave imaging for watermelon maturity determination. Current Research in Food Science, 6, 100412.
+      - Choffin, Z., Jeong, N., Callihan, M., Olmstead, S., Sazonov, E., Thakral, S., ... & Lombardi, V. (2021). Ankle Angle Prediction Using a Footwear Pressure Sensor and a Machine Learning Technique. Sensors, 21(11), 3790.
